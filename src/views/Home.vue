@@ -18,19 +18,19 @@
       </template>
 
       <el-form :model="form" label-width="120px" :inline="false">
-        <el-form-item label="air">
+        <el-form-item label="air(℃)">
           <el-input v-model="form.air"></el-input>
         </el-form-item>
-        <el-form-item label="hgt">
+        <el-form-item label="hgt(m)">
           <el-input v-model="form.hgt"></el-input>
         </el-form-item>
-        <el-form-item label="omega">
+        <el-form-item label="omega(Pa/s)">
           <el-input v-model="form.omega"></el-input>
         </el-form-item>
-        <el-form-item label="uwnd">
+        <el-form-item label="uwnd(m/s)">
           <el-input v-model="form.uwnd"></el-input>
         </el-form-item>
-        <el-form-item label="vwnd">
+        <el-form-item label="vwnd(m/s)">
           <el-input v-model="form.vwnd"></el-input>
         </el-form-item>
         <el-form-item>
